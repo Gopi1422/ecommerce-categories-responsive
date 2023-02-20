@@ -50,7 +50,7 @@ npm start
 ![Output-3](https://github.com/Gopi1422/ecommerce-categories-responsive/blob/b242b4262d1db88034ecdd408ba364d1b293e7ac/screenshots/3.png)
 ![Output-4](https://github.com/Gopi1422/ecommerce-categories-responsive/blob/b242b4262d1db88034ecdd408ba364d1b293e7ac/screenshots/4.png)
 
-### On Tablet
+#### On Tablet
 ![Output-10](https://github.com/Gopi1422/ecommerce-categories-responsive/blob/b242b4262d1db88034ecdd408ba364d1b293e7ac/screenshots/10.png)
 ![Output-11](https://github.com/Gopi1422/ecommerce-categories-responsive/blob/b242b4262d1db88034ecdd408ba364d1b293e7ac/screenshots/11.png)
 
