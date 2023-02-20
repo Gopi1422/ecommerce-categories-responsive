@@ -1,13 +1,67 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+/* For Firefox Browser */
+/* .scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #000 #fff;
+} */
+
+/* For Chrome, EDGE, Opera, Others */
+/* .scrollbar-custom::-webkit-scrollbar {
+  width: 20px;
+}
+
+.scrollbar-custom::-webkit-scrollbar-track {
+  background: #fff;
+} */
+
+/* ::-webkit-scrollbar-thumb {
+  background-color: #818b99;
+  border: 3px solid transparent;
+  border-radius: 9px;
+  background-clip: content-box;
+} */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .category-item .active {
+    background-color: theme("colors.secondaryBlue");
+    color: theme("colors.gray.100");
+    /* pointer-events: none; */
+  }
+
+  .category-item .active:hover {
+    background-color: theme("colors.secondaryBlue");
+  }
+
+  .category-menu-item.active .item-image-container {
+    background-color: theme("colors.secondaryBlue");
+  }
+  .category-menu-item.active .item-image {
+    filter: brightness(0) invert(1);
+  }
+  .category-menu-item.active .item-name {
+    color: theme("colors.secondaryBlue");
+  }
 }
