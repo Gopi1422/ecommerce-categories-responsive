@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Responsive E-commerce Categories Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A responsive cross-platform (android, iOS & Web) single-page application for e-commerce product categories. 
 
-## Available Scripts
+1. The category panel 
+    - On Mobile: It should be visible on top 
+    - On the Web: It should be visible on the left
 
-In the project directory, you can run:
+2. Scrolling Syncing 
+    - If the user scrolls the page, the category item should be selected based on the category list visible at the top of the page. 
 
-### `npm start`
+3. Auto Scrolling
+    - If the category item is not visible on the screen, then it would be scroll to respective direction to make it visible.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+4. Adding/Removing an item to/from the cart 
+    - Data should get maintained using redux / context API
+    - On click of the (+) icon on an item should get added to the cart, 
+    - (+/-) It should be a toggle button; if the item is added, the + button should be changed to a (-) button, as shown in the screenshot in Figma designs 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+5. Updating cart item quantity
+    - Cart item quantity will be updated based on click of (+/-).
 
-### `npm test`
+6. Availability of cart items after refreshing the page
+    - Cart items should be available as it is after refreshing the page.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Tech Stack: 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React JS
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Run Locally
 
-### `npm run eject`
+1. Fork this repository to your github account
+2. Clone the forked repository and proceed with steps mentioned below
+3. Install requirements
+```
+npm install
+```
+4. Start development server
+```
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Screenshots
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### On Desktop
+![Output-1](https://github.com/Gopi1422/ecommerce-categories-responsive/blob/b242b4262d1db88034ecdd408ba364d1b293e7ac/screenshots/1.png)
+![Output-2](https://github.com/Gopi1422/ecommerce-categories-responsive/blob/b242b4262d1db88034ecdd408ba364d1b293e7ac/screenshots/2.png)
+![Output-3](https://github.com/Gopi1422/ecommerce-categories-responsive/blob/b242b4262d1db88034ecdd408ba364d1b293e7ac/screenshots/3.png)
+![Output-4](https://github.com/Gopi1422/ecommerce-categories-responsive/blob/b242b4262d1db88034ecdd408ba364d1b293e7ac/screenshots/4.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### On Tablet
+![Output-10](https://github.com/Gopi1422/ecommerce-categories-responsive/blob/b242b4262d1db88034ecdd408ba364d1b293e7ac/screenshots/10.png)
+![Output-11](https://github.com/Gopi1422/ecommerce-categories-responsive/blob/b242b4262d1db88034ecdd408ba364d1b293e7ac/screenshots/11.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### On Mobile
+![Output-8](https://github.com/Gopi1422/ecommerce-categories-responsive/blob/b242b4262d1db88034ecdd408ba364d1b293e7ac/screenshots/8.png)
+![Output-9](https://github.com/Gopi1422/ecommerce-categories-responsive/blob/b242b4262d1db88034ecdd408ba364d1b293e7ac/screenshots/9.png)
