@@ -171,7 +171,7 @@ const MainContainer = ({ headerRef }) => {
         ref={categoryMenuSmRef}
         id="category-menu-sm"
         className="flex items-center 
-   py-2 pt-3 px-6 md:hidden gap-4 overflow-x-scroll scroll-smooth scrollbar-none"
+   py-2 pt-3 px-4 md:hidden gap-4 overflow-x-scroll scroll-smooth scrollbar-none"
       >
         {categories &&
           categories.map((category, index) => (
