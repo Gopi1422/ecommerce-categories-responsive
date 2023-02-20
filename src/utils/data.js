@@ -174,40 +174,4 @@ export const categories = [
     urlParamName: "canned_foods_and_soups",
     image: C3,
   },
-  {
-    id: 16,
-    name: "Canned foods & Soups",
-    urlParamName: "canned_foods_and_soups",
-    image: C3,
-  },
-  {
-    id: 17,
-    name: "Bakery",
-    urlParamName: "bakery",
-    image: C4,
-  },
-  {
-    id: 18,
-    name: "Dairy & Eggs",
-    urlParamName: "dairy_and_eggs",
-    image: C5,
-  },
-  {
-    id: 19,
-    name: "Frozen",
-    urlParamName: "frozen",
-    image: C6,
-  },
-  {
-    id: 20,
-    name: "Meat & Seafood",
-    urlParamName: "meat_and_seafood",
-    image: C3,
-  },
-  {
-    id: 21,
-    name: "Canned foods & Soups",
-    urlParamName: "canned_foods_and_soups",
-    image: C3,
-  },
 ];
